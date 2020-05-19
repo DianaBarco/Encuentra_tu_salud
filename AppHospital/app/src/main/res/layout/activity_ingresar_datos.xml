@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_3_39"
+    tools:context=".IngresarDatos">
+
+    <LinearLayout
+        android:layout_width="351dp"
+        android:layout_height="735dp"
+        android:layout_marginStart="28dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image"
+            app:srcCompat="@mipmap/logo_transparente_4_size"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="29dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="@string/ingrese_sus_datos_personales"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+        <EditText
+            android:id="@+id/nombreApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/nombre_y_apellidos"
+            android:textAlignment="viewStart"
+            android:autofillHints=""
+            tools:ignore="DuplicateIds,HardcodedText,LabelFor"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/edad"
+            android:autofillHints=""
+            tools:ignore="DuplicateIds,HardcodedText,LabelFor"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/numDocumento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="@string/numero_de_documento"
+            android:autofillHints=""
+            tools:ignore="DuplicateIds,HardcodedText,LabelFor"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/direcci_n_de_su_residencia"
+            android:autofillHints=""
+            tools:ignore="DuplicateIds,HardcodedText,LabelFor"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="156dp" />
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90D9E4"
+            android:text="@string/registrar"
+            android:textColor="#2B40B4"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

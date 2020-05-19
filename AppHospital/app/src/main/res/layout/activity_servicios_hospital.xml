@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_3_39"
+    tools:context=".ServiciosHospital">
+
+    <ImageButton
+        android:id="@+id/inicioServiciosHospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/inicio_7"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="185dp"
+        android:layout_height="86dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/logo_transparente_4_size"
+        tools:ignore="ContentDescription"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="339dp"
+        android:layout_height="645dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="42dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qu_servicio_necesita"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+
+        <Button
+            android:id="@+id/covid19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90D9E4"
+            android:text="@string/covid_19"
+            android:textColor="#2B40B4"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="36dp" />
+
+        <Button
+            android:id="@+id/serviciosHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90D9E4"
+            android:text="@string/servicios_del_hospital"
+            android:textColor="#2B40B4"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <Button
+            android:id="@+id/infoHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90D9E4"
+            android:text="@string/informaci_n_del_hospital"
+            android:textColor="#2B40B4"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="131dp" />
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90D9E4"
+            android:text="@string/salir"
+            android:textColor="#2B40E4"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

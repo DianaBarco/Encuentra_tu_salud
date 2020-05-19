@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_3_39"
+    tools:context=".SinPosibleCovid">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="134dp"
+        android:layout_height="83dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@mipmap/logo_transparente_4_size"
+        tools:ignore="ContentDescription"/>
+
+    <ImageButton
+        android:id="@+id/inicioSinCovid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/inicio_7"
+        tools:ignore="ContentDescription"/>
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="644dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="58dp" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:contentDescription="@string/image"
+            app:srcCompat="@drawable/advertencia_3"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="@string/sin_posible_covid_19"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_es_necesario_que_asista_al_hospital_sin_embargo_si_sus_sintomas_cambian_o_empeoran_debe_volver_a_consultar_o_llamar_a_su_doctor_o_centro_de_atenci_n_sanitaria_antes_de_presentarte_en_el_lugar_en_cuesti_n"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="103dp" />
+
+        <Button
+            android:id="@+id/continuarSinCovid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90D9E4"
+            android:text="@string/continuar"
+            android:textColor="#2B40B4"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

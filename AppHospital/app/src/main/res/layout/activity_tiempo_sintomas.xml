@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_3_39"
+    tools:context=".TiempoSintomas">
+
+    <ImageButton
+        android:id="@+id/inicioTiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/inicio_7"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="134dp"
+        android:layout_height="83dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@mipmap/logo_transparente_4_size"
+        tools:ignore="ContentDescription"/>
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="641dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hace_cu_nto_tiempo_presenta_los_sintomas"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="@string/solo_puede_elegir_una_opci_n"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="335dp">
+
+            <RadioButton
+                android:id="@+id/dias"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="@string/_5_d_as" />
+
+            <RadioButton
+                android:id="@+id/unaSemana"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/_1_semana" />
+
+            <RadioButton
+                android:id="@+id/dosSemanas"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/_2_semanas" />
+
+            <RadioButton
+                android:id="@+id/tresSemanas"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="@string/_3_semanas" />
+
+            <RadioButton
+                android:id="@+id/otro"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="@string/otro" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/continuarTiempo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90D9E4"
+            android:text="@string/continuar"
+            android:textColor="#2B40B4"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
